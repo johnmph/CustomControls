@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D09D013156BA58A0099F55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D012156BA58A0099F55F /* Cocoa.framework */; };
+		4D09D01D156BA58A0099F55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D09D01B156BA58A0099F55F /* InfoPlist.strings */; };
+		4D09D029156BA58A0099F55F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D028156BA58A0099F55F /* SenTestingKit.framework */; };
+		4D09D02A156BA58A0099F55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D012156BA58A0099F55F /* Cocoa.framework */; };
+		4D09D02D156BA58A0099F55F /* CustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D00F156BA58A0099F55F /* CustomControls.framework */; };
+		4D09D033156BA58A0099F55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D09D031156BA58A0099F55F /* InfoPlist.strings */; };
+		4D09D036156BA58A0099F55F /* CustomControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D035156BA58A0099F55F /* CustomControlsTests.m */; };
+		4D09D04B156BA6100099F55F /* CCBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D03F156BA6100099F55F /* CCBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D04C156BA6100099F55F /* CCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D040156BA6100099F55F /* CCBase.m */; };
+		4D09D04D156BA6100099F55F /* CCGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D041156BA6100099F55F /* CCGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D04E156BA6100099F55F /* CCGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D042156BA6100099F55F /* CCGradient.m */; };
+		4D09D04F156BA6100099F55F /* CCGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D043156BA6100099F55F /* CCGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D050156BA6100099F55F /* CCGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D044156BA6100099F55F /* CCGradientView.m */; };
+		4D09D051156BA6100099F55F /* CCTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D045156BA6100099F55F /* CCTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D052156BA6100099F55F /* CCTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D046156BA6100099F55F /* CCTabView.m */; };
+		4D09D053156BA6100099F55F /* CCTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D047156BA6100099F55F /* CCTabViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D054156BA6100099F55F /* CCTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D048156BA6100099F55F /* CCTabViewItem.m */; };
+		4D09D055156BA6100099F55F /* CCToolBarButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D049156BA6100099F55F /* CCToolBarButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D056156BA6100099F55F /* CCToolBarButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */; };
+		4D09D057156BA67E0099F55F /* CustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D01F156BA58A0099F55F /* CustomControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09D059156BA6960099F55F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D058156BA6960099F55F /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D09D02B156BA58A0099F55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D09D005156BA58A0099F55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D09D00E156BA58A0099F55F;
+			remoteInfo = CustomControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D09D00F156BA58A0099F55F /* CustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D09D012156BA58A0099F55F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D09D015156BA58A0099F55F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D09D016156BA58A0099F55F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D09D017156BA58A0099F55F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D09D01A156BA58A0099F55F /* CustomControls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomControls-Info.plist"; sourceTree = "<group>"; };
+		4D09D01C156BA58A0099F55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D09D01E156BA58A0099F55F /* CustomControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomControls-Prefix.pch"; sourceTree = "<group>"; };
+		4D09D01F156BA58A0099F55F /* CustomControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControls.h; sourceTree = "<group>"; };
+		4D09D027156BA58A0099F55F /* CustomControlsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomControlsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D09D028156BA58A0099F55F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D09D030156BA58A0099F55F /* CustomControlsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomControlsTests-Info.plist"; sourceTree = "<group>"; };
+		4D09D032156BA58A0099F55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D09D034156BA58A0099F55F /* CustomControlsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControlsTests.h; sourceTree = "<group>"; };
+		4D09D035156BA58A0099F55F /* CustomControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomControlsTests.m; sourceTree = "<group>"; };
+		4D09D03F156BA6100099F55F /* CCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBase.h; sourceTree = "<group>"; };
+		4D09D040156BA6100099F55F /* CCBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBase.m; sourceTree = "<group>"; };
+		4D09D041156BA6100099F55F /* CCGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGradient.h; sourceTree = "<group>"; };
+		4D09D042156BA6100099F55F /* CCGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGradient.m; sourceTree = "<group>"; };
+		4D09D043156BA6100099F55F /* CCGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGradientView.h; sourceTree = "<group>"; };
+		4D09D044156BA6100099F55F /* CCGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGradientView.m; sourceTree = "<group>"; };
+		4D09D045156BA6100099F55F /* CCTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabView.h; sourceTree = "<group>"; };
+		4D09D046156BA6100099F55F /* CCTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabView.m; sourceTree = "<group>"; };
+		4D09D047156BA6100099F55F /* CCTabViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabViewItem.h; sourceTree = "<group>"; };
+		4D09D048156BA6100099F55F /* CCTabViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabViewItem.m; sourceTree = "<group>"; };
+		4D09D049156BA6100099F55F /* CCToolBarButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCToolBarButtonCell.h; sourceTree = "<group>"; };
+		4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCToolBarButtonCell.m; sourceTree = "<group>"; };
+		4D09D058156BA6960099F55F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D09D00B156BA58A0099F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D013156BA58A0099F55F /* Cocoa.framework in Frameworks */,
+				4D09D059156BA6960099F55F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D09D023156BA58A0099F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D029156BA58A0099F55F /* SenTestingKit.framework in Frameworks */,
+				4D09D02A156BA58A0099F55F /* Cocoa.framework in Frameworks */,
+				4D09D02D156BA58A0099F55F /* CustomControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D09D003156BA58A0099F55F = {
+			isa = PBXGroup;
+			children = (
+				4D09D018156BA58A0099F55F /* CustomControls */,
+				4D09D02E156BA58A0099F55F /* CustomControlsTests */,
+				4D09D011156BA58A0099F55F /* Frameworks */,
+				4D09D010156BA58A0099F55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D09D010156BA58A0099F55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D00F156BA58A0099F55F /* CustomControls.framework */,
+				4D09D027156BA58A0099F55F /* CustomControlsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D09D011156BA58A0099F55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D012156BA58A0099F55F /* Cocoa.framework */,
+				4D09D058156BA6960099F55F /* QuartzCore.framework */,
+				4D09D028156BA58A0099F55F /* SenTestingKit.framework */,
+				4D09D014156BA58A0099F55F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D09D014156BA58A0099F55F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D015156BA58A0099F55F /* AppKit.framework */,
+				4D09D016156BA58A0099F55F /* CoreData.framework */,
+				4D09D017156BA58A0099F55F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D09D018156BA58A0099F55F /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D03F156BA6100099F55F /* CCBase.h */,
+				4D09D040156BA6100099F55F /* CCBase.m */,
+				4D09D041156BA6100099F55F /* CCGradient.h */,
+				4D09D042156BA6100099F55F /* CCGradient.m */,
+				4D09D043156BA6100099F55F /* CCGradientView.h */,
+				4D09D044156BA6100099F55F /* CCGradientView.m */,
+				4D09D045156BA6100099F55F /* CCTabView.h */,
+				4D09D046156BA6100099F55F /* CCTabView.m */,
+				4D09D047156BA6100099F55F /* CCTabViewItem.h */,
+				4D09D048156BA6100099F55F /* CCTabViewItem.m */,
+				4D09D049156BA6100099F55F /* CCToolBarButtonCell.h */,
+				4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */,
+				4D09D01F156BA58A0099F55F /* CustomControls.h */,
+				4D09D019156BA58A0099F55F /* Supporting Files */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		4D09D019156BA58A0099F55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D01A156BA58A0099F55F /* CustomControls-Info.plist */,
+				4D09D01B156BA58A0099F55F /* InfoPlist.strings */,
+				4D09D01E156BA58A0099F55F /* CustomControls-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D09D02E156BA58A0099F55F /* CustomControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D034156BA58A0099F55F /* CustomControlsTests.h */,
+				4D09D035156BA58A0099F55F /* CustomControlsTests.m */,
+				4D09D02F156BA58A0099F55F /* Supporting Files */,
+			);
+			path = CustomControlsTests;
+			sourceTree = "<group>";
+		};
+		4D09D02F156BA58A0099F55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D09D030156BA58A0099F55F /* CustomControlsTests-Info.plist */,
+				4D09D031156BA58A0099F55F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D09D00C156BA58A0099F55F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D04B156BA6100099F55F /* CCBase.h in Headers */,
+				4D09D04D156BA6100099F55F /* CCGradient.h in Headers */,
+				4D09D04F156BA6100099F55F /* CCGradientView.h in Headers */,
+				4D09D051156BA6100099F55F /* CCTabView.h in Headers */,
+				4D09D053156BA6100099F55F /* CCTabViewItem.h in Headers */,
+				4D09D055156BA6100099F55F /* CCToolBarButtonCell.h in Headers */,
+				4D09D057156BA67E0099F55F /* CustomControls.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D09D00E156BA58A0099F55F /* CustomControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D09D039156BA58A0099F55F /* Build configuration list for PBXNativeTarget "CustomControls" */;
+			buildPhases = (
+				4D09D00A156BA58A0099F55F /* Sources */,
+				4D09D00B156BA58A0099F55F /* Frameworks */,
+				4D09D00C156BA58A0099F55F /* Headers */,
+				4D09D00D156BA58A0099F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomControls;
+			productName = CustomControls;
+			productReference = 4D09D00F156BA58A0099F55F /* CustomControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D09D026156BA58A0099F55F /* CustomControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D09D03C156BA58A0099F55F /* Build configuration list for PBXNativeTarget "CustomControlsTests" */;
+			buildPhases = (
+				4D09D022156BA58A0099F55F /* Sources */,
+				4D09D023156BA58A0099F55F /* Frameworks */,
+				4D09D024156BA58A0099F55F /* Resources */,
+				4D09D025156BA58A0099F55F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D09D02C156BA58A0099F55F /* PBXTargetDependency */,
+			);
+			name = CustomControlsTests;
+			productName = CustomControlsTests;
+			productReference = 4D09D027156BA58A0099F55F /* CustomControlsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D09D005156BA58A0099F55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4D09D008156BA58A0099F55F /* Build configuration list for PBXProject "CustomControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D09D003156BA58A0099F55F;
+			productRefGroup = 4D09D010156BA58A0099F55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D09D00E156BA58A0099F55F /* CustomControls */,
+				4D09D026156BA58A0099F55F /* CustomControlsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D09D00D156BA58A0099F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D01D156BA58A0099F55F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D09D024156BA58A0099F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D033156BA58A0099F55F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D09D025156BA58A0099F55F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D09D00A156BA58A0099F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D04C156BA6100099F55F /* CCBase.m in Sources */,
+				4D09D04E156BA6100099F55F /* CCGradient.m in Sources */,
+				4D09D050156BA6100099F55F /* CCGradientView.m in Sources */,
+				4D09D052156BA6100099F55F /* CCTabView.m in Sources */,
+				4D09D054156BA6100099F55F /* CCTabViewItem.m in Sources */,
+				4D09D056156BA6100099F55F /* CCToolBarButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D09D022156BA58A0099F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D09D036156BA58A0099F55F /* CustomControlsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D09D02C156BA58A0099F55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D09D00E156BA58A0099F55F /* CustomControls */;
+			targetProxy = 4D09D02B156BA58A0099F55F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D09D01B156BA58A0099F55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D09D01C156BA58A0099F55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D09D031156BA58A0099F55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D09D032156BA58A0099F55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D09D037156BA58A0099F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D09D038156BA58A0099F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D09D03A156BA58A0099F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";
+				INFOPLIST_FILE = "CustomControls/CustomControls-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4D09D03B156BA58A0099F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";
+				INFOPLIST_FILE = "CustomControls/CustomControls-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4D09D03D156BA58A0099F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";
+				INFOPLIST_FILE = "CustomControlsTests/CustomControlsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D09D03E156BA58A0099F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";
+				INFOPLIST_FILE = "CustomControlsTests/CustomControlsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D09D008156BA58A0099F55F /* Build configuration list for PBXProject "CustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D09D037156BA58A0099F55F /* Debug */,
+				4D09D038156BA58A0099F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D09D039156BA58A0099F55F /* Build configuration list for PBXNativeTarget "CustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D09D03A156BA58A0099F55F /* Debug */,
+				4D09D03B156BA58A0099F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D09D03C156BA58A0099F55F /* Build configuration list for PBXNativeTarget "CustomControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D09D03D156BA58A0099F55F /* Debug */,
+				4D09D03E156BA58A0099F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D09D005156BA58A0099F55F /* Project object */;
+}

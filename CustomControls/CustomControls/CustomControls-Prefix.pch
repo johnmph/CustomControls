@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CustomControls' target in the 'CustomControls' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

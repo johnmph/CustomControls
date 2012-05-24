@@ -1,0 +1,817 @@
+TCustomControls
+v5
+r1
+cCheck dependencies
+cSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current A
+cSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources Versions/Current/Resources
+cSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControls Versions/Current/CustomControls
+cSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers Versions/Current/Headers
+cProcessInfoPlistFile /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist CustomControls/CustomControls-Info.plist
+cProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControls normal x86_64
+cCpHeader CustomControls/CCBase.h build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h
+cCpHeader CustomControls/CCGradient.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h
+cCpHeader CustomControls/CCGradientView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+cCpHeader CustomControls/CCTabView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h
+cCpHeader CustomControls/CCTabViewItem.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+cCpHeader CustomControls/CCToolBarButtonCell.h build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+cCpHeader CustomControls/CustomControls.h build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h
+cCopyStringsFile /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings CustomControls/en.lproj/InfoPlist.strings
+cTouch /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F29C61A00000000000000EE
+t1328137754
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F9F39E80000000000002470
+t1335835112
+s9328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F9F39EA00000000000462E0
+t1335835114
+s287456
+
+N/CustomControls.framework
+t2
+s0
+
+N/Library/Frameworks/CustomControls.framework
+t2
+s0
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.h
+c000000004FBA7BF800000000000004B6
+t1337621496
+s1206
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m
+c000000004FBA74B40000000000000115
+t1337619636
+s277
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.h
+c000000004FBA79BA00000000000003A5
+t1337620922
+s933
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m
+c000000004FBA79BA0000000000000455
+t1337620922
+s1109
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.h
+c000000004FBA79390000000000000183
+t1337620793
+s387
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m
+c000000004FBA79390000000000000332
+t1337620793
+s818
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.h
+c000000004FBA7BF90000000000000E17
+t1337621497
+s3607
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m
+c000000004FBE00C00000000000003E2F
+t1337852096
+s15919
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.h
+c000000004FBA7DA0000000000000015B
+t1337621920
+s347
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m
+c000000004FBA7CD20000000000000269
+t1337621714
+s617
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.h
+c000000004FBA7CD20000000000000110
+t1337621714
+s272
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m
+c000000004FBA7CD20000000000000799
+t1337621714
+s1945
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Prefix.pch
+c000000004FBB6E0A000000000000009F
+t1337683466
+s159
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls.h
+c000000004FBB6EDE000000000000018D
+t1337683678
+s397
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/en.lproj/InfoPlist.strings
+c000000004FBB6E0A000000000000002D
+t1337683466
+s45
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o
+t1337783898
+s2728
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o
+t1337783898
+s13756
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o
+t1337783898
+s18760
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o
+t1337852097
+s75976
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o
+t1337783898
+s19304
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o
+t1337783898
+s22612
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CustomControls.LinkFileList
+c000000004FBCF658000000000000036B
+t1337783896
+s875
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C7156D388F00D99689.sh
+c000000004FBD03CE0000000000000053
+t1337787342
+s83
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh
+c000000004FBD74180000000000000139
+t1337816088
+s313
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCBase.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradient.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradientView.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabView.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabViewItem.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCToolBarButtonCell.plist
+t1337842835
+s276
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework
+t1337852097
+s272
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControls
+t3
+s31
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers
+t3
+s24
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources
+t3
+s26
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControls
+t1337852097
+s50456
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h
+t1337783898
+s1206
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h
+t1337783898
+s933
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+t1337783898
+s387
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h
+t1337783898
+s3607
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+t1337783898
+s347
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+t1337783898
+s272
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h
+t1337783898
+s397
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist
+t1337783896
+s1267
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+t1337783898
+s92
+
+N/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current
+t3
+s1
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework
+t1337785624
+s204
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls
+t3
+s31
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers
+t3
+s24
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources
+t3
+s26
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControls
+t1337785624
+s50456
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.h
+t1337785624
+s1206
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.h
+t1337785624
+s933
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+t1337785624
+s387
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h
+t1337785624
+s3607
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+t1337785624
+s347
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+t1337785624
+s272
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.h
+t1337785624
+s397
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/Info.plist
+t1337785624
+s1267
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+t1337785624
+s92
+
+N/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Current
+t3
+s1
+
+N/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth
+t1337783898
+s11499244
+
+N/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.pth
+t1337842834
+s11499244
+
+NCustomControls/CustomControls-Info.plist
+c000000004FBB6E0A00000000000003BF
+t1337683466
+s959
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m
+s359535634.868860
+e359535635.428118
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m38a3de12146eb541^87a56d13146eb541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m0000000000000000^2948"Analyze CustomControls/CCBase.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCBase.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCBase.plist36"E981DEA1-33FE-40D1-AA94-4EF7A36CF1CD-
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m
+s359535634.869451
+e359535635.426717
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.mbccade12146eb541^813e6d13146eb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m0000000000000000^2964"Analyze CustomControls/CCGradient.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradient.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradient.plist36"69AD9102-4F6C-45FE-80A8-32D768501128-
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m
+s359535634.869523
+e359535635.439481
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m9fc9de12146eb541^ae827013146eb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m0000000000000000^2980"Analyze CustomControls/CCGradientView.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradientView.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCGradientView.plist36"6DEDC97F-367C-4250-BA8B-64C3B14D69EB-
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m
+s359535634.869487
+e359535635.581721
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m53cfde12146eb541^faec9413146eb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m0000000000000000^2960"Analyze CustomControls/CCTabView.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabView.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabView.plist36"C203CDAF-5B47-4059-8414-7481ABA94B93-
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m
+s359535635.428058
+e359535635.600266
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m6abf6d13146eb541^acac9913146eb541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m0000000000000000^2976"Analyze CustomControls/CCTabViewItem.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabViewItem.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCTabViewItem.plist36"5DDA4957-C24C-4977-AAF9-FA2FB62FE5EA-
+
+CAnalyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m
+s359535635.429303
+e359535635.630607
+r1
+xAnalyze
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m390c6e13146eb541^6170a113146eb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m0000000000000000^3000"Analyze CustomControls/CCToolBarButtonCell.m    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCToolBarButtonCell.d --analyze /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/StaticAnalyzer/normal/x86_64/CCToolBarButtonCell.plist36"319C7843-5CA7-4AF3-AB41-21406B8A8568-
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m
+r0
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m
+r0
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m
+r0
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m
+r0
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m
+r0
+
+CBuild AST from /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa1b99a7b3e6eb541^994a9b7b3e6eb541^---0#1#0#--18"Check dependencies36"457A45CB-D460-456E-9C19-40DB86202201-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476698.273253
+e359476698.707319
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m613546da2d6db541^2312b5da2d6db541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m0000000000000000^3107"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o CustomControls/CCBase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCBase.o36"4FD05885-7F7A-4CD7-95B2-D49969E36538-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476698.273287
+e359476698.732006
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m603946da2d6db541^c286bbda2d6db541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m0000000000000000^3131"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o CustomControls/CCGradient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradient.o36"FD8AEF78-5322-49F1-A05B-5471DC7E3C55-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476698.273262
+e359476698.729757
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.mce3746da2d6db541^cde9bada2d6db541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m0000000000000000^3155"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o CustomControls/CCGradientView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCGradientView.o36"09DA8F67-2BF4-4BD1-97E5-5901BEA684BC-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359544897.039450
+e359544897.230822
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.mcb470a41386eb541^d3163b41386eb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m0000000000000000^3125"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o CustomControls/CCTabView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabView.o36"2A0A0FB4-9BB4-48C5-8217-E9D251E6FD0B-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476698.708720
+e359476698.779904
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.me2afb5da2d6db541^dba7c7da2d6db541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m0000000000000000^3149"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o CustomControls/CCTabViewItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCTabViewItem.o36"CC829B17-7FBD-43F8-99E2-18F5CA462496-
+
+CCompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476698.731124
+e359476698.810127
+r1
+xCompileC
+xbuild/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o
+x/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.md482bbda2d6db541^1764cfda2d6db541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m0000000000000000^3185"CompileC build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o CustomControls/CCToolBarButtonCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.m -o /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CCToolBarButtonCell.o36"1E53199E-B059-404D-90D2-714E15564F8F-
+
+CCopyStringsFile /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings CustomControls/en.lproj/InfoPlist.strings
+s359476698.957607
+e359476698.982330
+r1
+xCopyStringsFile
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+xCustomControls/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy CustomControls/en.lproj/InfoPlist.strings4339f5da2d6db541^1c7afbda2d6db541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/en.lproj/InfoPlist.strings0000000000000000^462"CopyStringsFile build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings CustomControls/en.lproj/InfoPlist.strings    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/en.lproj -- CustomControls/en.lproj/InfoPlist.strings36"18248C11-CE57-48B6-9FC2-78C0D28F4143-
+
+CCopyStringsFile /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings CustomControls/en.lproj/InfoPlist.strings
+s359478424.388135
+e359478424.407743
+r1
+xCopyStringsFile
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+xCustomControls/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy CustomControls/en.lproj/InfoPlist.stringse7726398346db541^06636898346db541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/en.lproj/InfoPlist.strings0000000000000000^469"CopyStringsFile /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/en.lproj/InfoPlist.strings CustomControls/en.lproj/InfoPlist.strings    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/en.lproj -- CustomControls/en.lproj/InfoPlist.strings36"3785F62E-B007-4CAF-9B85-F326FA3058B4-
+
+CCpHeader CustomControls/CCBase.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.h
+s359478424.329733
+e359478424.349385
+r1
+xCpHeader
+xCustomControls/CCBase.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.haf7a5498346db541^c0795998346db541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.h000000000080d041^574"CpHeader CustomControls/CCBase.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCBase.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"F611CAA6-D3B1-4A6D-AAC5-B5693B4C373D-
+
+CCpHeader CustomControls/CCBase.h build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h
+s359476698.896107
+e359476698.901271
+r1
+xCpHeader
+xCustomControls/CCBase.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h7991e5da2d6db541^d4b9e6da2d6db541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h000000000080d041^567"CpHeader CustomControls/CCBase.h build/Debug/CustomControls.framework/Versions/A/Headers/CCBase.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCBase.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"A7A61DA5-55EE-49E1-A5B4-F2A6284BA241-
+
+CCpHeader CustomControls/CCGradient.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.h
+s359478424.330216
+e359478424.374174
+r1
+xCpHeader
+xCustomControls/CCGradient.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.hb4945498346db541^51146098346db541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.h000000000080d041^586"CpHeader CustomControls/CCGradient.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradient.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"77FA8EA4-6794-403B-B27E-F5B232AE7E0C-
+
+CCpHeader CustomControls/CCGradient.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h
+s359476698.896119
+e359476698.899197
+r1
+xCpHeader
+xCustomControls/CCGradient.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h198ce5da2d6db541^9032e6da2d6db541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h000000000080d041^579"CpHeader CustomControls/CCGradient.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradient.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradient.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"3BC344C8-039E-492E-8924-2406003FCA1E-
+
+CCpHeader CustomControls/CCGradientView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+s359478424.330229
+e359478424.375967
+r1
+xCpHeader
+xCustomControls/CCGradientView.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.hed9a5498346db541^603f6098346db541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.h000000000080d041^598"CpHeader CustomControls/CCGradientView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCGradientView.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"FC1146DA-211F-49A7-A695-96DD4B496A0E-
+
+CCpHeader CustomControls/CCGradientView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+s359476698.896127
+e359476698.900788
+r1
+xCpHeader
+xCustomControls/CCGradientView.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.hff91e5da2d6db541^c6a5e6da2d6db541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h000000000080d041^591"CpHeader CustomControls/CCGradientView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCGradientView.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCGradientView.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"600B0F13-F209-445D-95AF-043C5353326E-
+
+CCpHeader CustomControls/CCTabView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h
+s359478424.331383
+e359478424.376081
+r1
+xCpHeader
+xCustomControls/CCTabView.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h0aa05898346db541^28486098346db541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h000000000080d041^583"CpHeader CustomControls/CCTabView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabView.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"D2EEF0D3-691E-4128-9BB0-E226C727BD98-
+
+CCpHeader CustomControls/CCTabView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h
+s359476698.896796
+e359476698.902484
+r1
+xCpHeader
+xCustomControls/CCTabView.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h07b7e5da2d6db541^fa09e7da2d6db541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h000000000080d041^576"CpHeader CustomControls/CCTabView.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabView.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabView.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"2EE9DC41-AA8E-415C-B5F0-10898E0F3A0A-
+
+CCpHeader CustomControls/CCTabViewItem.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+s359478424.373016
+e359478424.378487
+r1
+xCpHeader
+xCustomControls/CCTabViewItem.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h80116098346db541^44356198346db541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h000000000080d041^595"CpHeader CustomControls/CCTabViewItem.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"D4D31522-8050-4AF0-A070-E64F54BBDCC2-
+
+CCpHeader CustomControls/CCTabViewItem.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+s359476698.900519
+e359476698.903422
+r1
+xCpHeader
+xCustomControls/CCTabViewItem.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h05a7e6da2d6db541^5247e7da2d6db541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h000000000080d041^588"CpHeader CustomControls/CCTabViewItem.h build/Debug/CustomControls.framework/Versions/A/Headers/CCTabViewItem.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"C02EF036-019D-4F2E-AFEA-BE81A8B8F962-
+
+CCpHeader CustomControls/CCToolBarButtonCell.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+s359478424.376251
+e359478424.378719
+r1
+xCpHeader
+xCustomControls/CCToolBarButtonCell.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h9e5f6098346db541^103d6198346db541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h000000000080d041^613"CpHeader CustomControls/CCToolBarButtonCell.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"12C3F603-C233-43DF-A4B4-F8DCCD0291A0-
+
+CCpHeader CustomControls/CCToolBarButtonCell.h build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+s359476698.902364
+e359476698.920533
+r1
+xCpHeader
+xCustomControls/CCToolBarButtonCell.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h041be7da2d6db541^fbceebda2d6db541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h000000000080d041^606"CpHeader CustomControls/CCToolBarButtonCell.h build/Debug/CustomControls.framework/Versions/A/Headers/CCToolBarButtonCell.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCToolBarButtonCell.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"C54AC69E-11C7-4ED4-B35C-CF2AA4CF5C70-
+
+CCpHeader CustomControls/CustomControls.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.h
+s359478424.376242
+e359478424.380140
+r1
+xCpHeader
+xCustomControls/CustomControls.h
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.hc05f6098346db541^f7596198346db541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.h000000000080d041^598"CpHeader CustomControls/CustomControls.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers/CustomControls.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls.h /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Headers36"02FEB2E4-D1AE-402C-98E4-68D0EF722F58-
+
+CCpHeader CustomControls/CustomControls.h build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h
+s359476698.902376
+e359476698.949107
+r1
+xCpHeader
+xCustomControls/CustomControls.h
+xbuild/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h431ce7da2d6db541^00fdf2da2d6db541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h000000000080d041^591"CpHeader CustomControls/CustomControls.h build/Debug/CustomControls.framework/Versions/A/Headers/CustomControls.h    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls.h /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Headers36"DC1AC387-5828-48D1-8685-31CBBAA53A7D-
+
+CLd /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControls normal x86_64
+s359544897.237102
+e359544897.297968
+r1
+xLd
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControls
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControlsf2d33c41386eb541^28484c41386eb541^---0#0#0#--1064"Ld build/Debug/CustomControls.framework/Versions/A/CustomControls normal x86_64    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -filelist /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CustomControls.LinkFileList -install_name "@executable_path/../Frameworks/CustomControls.framework/Versions/A/CustomControls" -mmacosx-version-min=10.7 -framework Cocoa -framework QuartzCore -single_module -compatibility_version 1 -current_version 1 -o /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/CustomControls36"3D8C7CC7-D73B-4392-A816-D482C207FFD9-
+
+CLd /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControls normal x86_64
+s359478424.232079
+e359478424.301974
+r1
+xLd
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControls
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControlsbe873b98346db541^2d784d98346db541^---0#0#0#--1058"Ld /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControls normal x86_64    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -filelist /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CustomControls.LinkFileList -install_name /Library/Frameworks/CustomControls.framework/Versions/A/CustomControls -mmacosx-version-min=10.7 -framework Cocoa -framework QuartzCore -single_module -compatibility_version 1 -current_version 1 -o /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/CustomControls36"4E350E7F-3947-4F76-ACBC-DF670EAE680D-
+
+CPBXCp build/Debug/CustomControls.framework /CustomControls.framework
+s359478010.043530
+e359478010.073634
+r0
+xPBXCp
+xbuild/Debug/CustomControls.framework
+x/CustomControls.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy /CustomControls.frameworkda370bfa326db541^587013fa326db541^-68"error: make directory //CustomControls.framework: Permission denied1(21%IDEActivityLogMessage2@67"error: make directory //CustomControls.framework: Permission denied-359478010#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@41"file://localhost/CustomControls.framework000000000080d041^442"PBXCp build/Debug/CustomControls.framework /CustomControls.framework    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework /36"12667E4B-7FBD-4C88-8D85-51E6C16316B2-
+
+CPBXCp build/Debug/CustomControls.framework /Library/Frameworks/CustomControls.framework
+s359478025.165881
+e359478025.169195
+r0
+xPBXCp
+xbuild/Debug/CustomControls.framework
+x/Library/Frameworks/CustomControls.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy /Library/Frameworks/CustomControls.framework87892a09336db541^cf4d2b09336db541^-86"error: make directory /Library/Frameworks/CustomControls.framework: Permission denied1(21%IDEActivityLogMessage2@85"error: make directory /Library/Frameworks/CustomControls.framework: Permission denied-359478025#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@60"file://localhost/Library/Frameworks/CustomControls.framework000000000080d041^479"PBXCp build/Debug/CustomControls.framework /Library/Frameworks/CustomControls.framework    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework /Library/Frameworks36"3C47631E-1DF5-409E-B935-9A4C555D385F-
+
+CPhaseScriptExecution "Run Script" /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C7156D388F00D99689.sh
+s359480142.308438
+e359480142.388654
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C7156D388F00D99689.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'164e564e3b6db541^33a6644e3b6db541^---0#0#0#--19983"PhaseScriptExecution "Run Script" build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C7156D388F00D99689.sh    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER johnmph    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv BUILD_ROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv CACHE_ROOT /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug    setenv CONTENTS_FOLDER_PATH CustomControls.framework/Versions/A    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv CURRENT_VERSION Current    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CustomControls.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME CustomControls.framework.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv DYLIB_COMPATIBILITY_VERSION 1    setenv DYLIB_CURRENT_VERSION 1    setenv DYLIB_INSTALL_NAME_BASE /Library/Frameworks    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj    setenv EXECUTABLE_FOLDER_PATH CustomControls.framework/Versions/A    setenv EXECUTABLE_NAME CustomControls    setenv EXECUTABLE_PATH CustomControls.framework/Versions/A/CustomControls    setenv FILE_LIST /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH CustomControls.framework/Versions/A/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME CustomControls.framework    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CustomControls/CustomControls-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_64_TO_32_BIT_CONVERSION YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLISTSTRINGS_PATH CustomControls.framework/Versions/A/Resources/English.lproj/InfoPlist.strings    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE CustomControls/CustomControls-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH CustomControls.framework/Versions/A/Resources/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/CustomControls.dst/Library/Frameworks    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER johnmph    setenv INSTALL_PATH /Library/Frameworks    setenv INSTALL_ROOT /tmp/CustomControls.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH CustomControls.framework/Versions/A/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DYLIB_INSTALL_NAME /Library/Frameworks/CustomControls.framework/Versions/A/CustomControls    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-LinkMap-normal-x86_64.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CustomControls.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_dylib    setenv MACOSX_DEPLOYMENT_TARGET 10.7    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal    setenv OBJROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.framework    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH CustomControls.framework/Versions/A/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/PkgInfo    setenv PKGINFO_PATH CustomControls.framework/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4E2002    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH CustomControls.framework/Versions/A/PrivateHeaders    setenv PRODUCT_NAME CustomControls    setenv PRODUCT_SETTINGS_PATH /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.framework    setenv PROFILING_CODE NO    setenv PROJECT CustomControls    setenv PROJECT_DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/DerivedSources    setenv PROJECT_DIR /Users/johnmph/Documents/CustomControls/CustomControls    setenv PROJECT_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls.xcodeproj    setenv PROJECT_NAME CustomControls    setenv PROJECT_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build    setenv PUBLIC_HEADERS_FOLDER_PATH CustomControls.framework/Versions/A/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH CustomControls.framework/Versions/A/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_NAME macosx10.7    setenv SDK_PRODUCT_BUILD_VERSION 11D50a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH CustomControls.framework/Versions/A/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/johnmph/Documents/CustomControls/CustomControls    setenv SRCROOT /Users/johnmph/Documents/CustomControls/CustomControls    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME CustomControls    setenv TARGET_BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv TARGET_NAME CustomControls    setenv TARGET_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_ROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER johnmph    setenv USER_APPS_DIR /Users/johnmph/Applications    setenv USER_LIBRARY_DIR /Users/johnmph/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH CustomControls.framework/Versions/A/Resources/version.plist    setenv VERSIONS_FOLDER_PATH CustomControls.framework/Versions    setenv VERSION_INFO_BUILDER johnmph    setenv VERSION_INFO_FILE CustomControls_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:CustomControls  PROJECT:CustomControls-\""    setenv WRAPPER_EXTENSION framework    setenv WRAPPER_NAME CustomControls.framework    setenv WRAPPER_SUFFIX .framework    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C7156D388F00D99689.sh36"8ACCF135-4265-46F6-991B-9424488C5437-
+
+CPhaseScriptExecution "Run Script" /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh
+s359508889.083666
+e359508889.174212
+r0
+xPhaseScriptExecution
+xRun Script
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh
+o/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 3: //rm: No such file or directory
+o/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 4: //cp: No such file or directory
+oditto: /Library/Frameworks/CustomControls.framework: Permission denied
+ocp: /Library/Frameworks/CustomControls.framework: Permission denied
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'143d1899ab6db541^e1952c99ab6db541^-509"/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 3: //rm: No such file or directory/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 4: //cp: No such file or directoryditto: /Library/Frameworks/CustomControls.framework: Permission deniedcp: /Library/Frameworks/CustomControls.framework: Permission denied4(21%IDEActivityLogMessage2@184"/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 3: //rm: No such file or directory-359508889#0#185#-2#--29"Shell Script Invocation Error--2@184"/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh: line 4: //cp: No such file or directory-359508889#185#185#-2#--29"Shell Script Invocation Error--2@70"Ditto: /Library/Frameworks/CustomControls.framework: Permission denied-359508889#370#71#-2#--29"Shell Script Invocation Error--2@67"Cp: /Library/Frameworks/CustomControls.framework: Permission denied-359508889#441#68#-2#--29"Shell Script Invocation Error--0#0#0#--19983"PhaseScriptExecution "Run Script" build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER johnmph    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv BUILD_ROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv CACHE_ROOT /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug    setenv CONTENTS_FOLDER_PATH CustomControls.framework/Versions/A    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv CURRENT_VERSION Current    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CustomControls.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME CustomControls.framework.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv DYLIB_COMPATIBILITY_VERSION 1    setenv DYLIB_CURRENT_VERSION 1    setenv DYLIB_INSTALL_NAME_BASE /Library/Frameworks    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj    setenv EXECUTABLE_FOLDER_PATH CustomControls.framework/Versions/A    setenv EXECUTABLE_NAME CustomControls    setenv EXECUTABLE_PATH CustomControls.framework/Versions/A/CustomControls    setenv FILE_LIST /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH CustomControls.framework/Versions/A/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME CustomControls.framework    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CustomControls/CustomControls-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_64_TO_32_BIT_CONVERSION YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLISTSTRINGS_PATH CustomControls.framework/Versions/A/Resources/English.lproj/InfoPlist.strings    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE CustomControls/CustomControls-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH CustomControls.framework/Versions/A/Resources/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/CustomControls.dst/Library/Frameworks    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER johnmph    setenv INSTALL_PATH /Library/Frameworks    setenv INSTALL_ROOT /tmp/CustomControls.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH CustomControls.framework/Versions/A/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DYLIB_INSTALL_NAME /Library/Frameworks/CustomControls.framework/Versions/A/CustomControls    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-LinkMap-normal-x86_64.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal/x86_64/CustomControls.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH CustomControls.framework/Versions/A/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_dylib    setenv MACOSX_DEPLOYMENT_TARGET 10.7    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Objects-normal    setenv OBJROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.framework    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH CustomControls.framework/Versions/A/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/PkgInfo    setenv PKGINFO_PATH CustomControls.framework/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4E2002    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH CustomControls.framework/Versions/A/PrivateHeaders    setenv PRODUCT_NAME CustomControls    setenv PRODUCT_SETTINGS_PATH /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.framework    setenv PROFILING_CODE NO    setenv PROJECT CustomControls    setenv PROJECT_DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/DerivedSources    setenv PROJECT_DIR /Users/johnmph/Documents/CustomControls/CustomControls    setenv PROJECT_FILE_PATH /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls.xcodeproj    setenv PROJECT_NAME CustomControls    setenv PROJECT_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build    setenv PUBLIC_HEADERS_FOLDER_PATH CustomControls.framework/Versions/A/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH CustomControls.framework/Versions/A/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_NAME macosx10.7    setenv SDK_PRODUCT_BUILD_VERSION 11D50a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH CustomControls.framework/Versions/A/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/johnmph/Documents/CustomControls/CustomControls    setenv SRCROOT /Users/johnmph/Documents/CustomControls/CustomControls    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME CustomControls    setenv TARGET_BUILD_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug    setenv TARGET_NAME CustomControls    setenv TARGET_TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_FILES_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_FILE_DIR /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build    setenv TEMP_ROOT /Users/johnmph/Documents/CustomControls/CustomControls/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH CustomControls.framework/Versions/A/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER johnmph    setenv USER_APPS_DIR /Users/johnmph/Applications    setenv USER_LIBRARY_DIR /Users/johnmph/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH CustomControls.framework/Versions/A/Resources/version.plist    setenv VERSIONS_FOLDER_PATH CustomControls.framework/Versions    setenv VERSION_INFO_BUILDER johnmph    setenv VERSION_INFO_FILE CustomControls_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:CustomControls  PROJECT:CustomControls-\""    setenv WRAPPER_EXTENSION framework    setenv WRAPPER_NAME CustomControls.framework    setenv WRAPPER_SUFFIX .framework    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/Script-4D03D4C8156D3DE300D99689.sh36"205ECA7F-9679-4045-83EA-7B6038115077-
+
+CProcessInfoPlistFile /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist CustomControls/CustomControls-Info.plist
+s359476696.078093
+e359476696.081610
+r1
+xProcessInfoPlistFile
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist
+xCustomControls/CustomControls-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process CustomControls/CustomControls-Info.plist6f1114d82d6db541^0ce514d82d6db541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Info.plist0000000000000000^428"ProcessInfoPlistFile build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist CustomControls/CustomControls-Info.plist    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-infoPlistUtility CustomControls/CustomControls-Info.plist -expandbuildsettings -platform macosx -o /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/A/Resources/Info.plist36"E4038317-9C4A-4024-BDE7-062483CAA00D-
+
+CProcessInfoPlistFile /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/Info.plist CustomControls/CustomControls-Info.plist
+s359478424.145343
+e359478424.172136
+r1
+xProcessInfoPlistFile
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/Info.plist
+xCustomControls/CustomControls-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process CustomControls/CustomControls-Info.plist82032698346db541^0a112c98346db541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Info.plist0000000000000000^435"ProcessInfoPlistFile /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/Info.plist CustomControls/CustomControls-Info.plist    cd /Users/johnmph/Documents/CustomControls/CustomControls    builtin-infoPlistUtility CustomControls/CustomControls-Info.plist -expandbuildsettings -platform macosx -o /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/A/Resources/Info.plist36"01821E7E-A2EB-411A-8F37-F302134099FD-
+
+CProcessPCH /Users/johnmph/Library/Developer/Xcode/DerivedData/CustomControls-eaywxyjkitlkgsayyymuxjrgrtxi/Index/PrecompiledHeaders/CustomControls-Prefix-ffypmzakvssxvechvudweqyuioiw_ast/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359476696.090630
+e359476698.265358
+r1
+xProcessPCH
+x/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth
+xCustomControls/CustomControls-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile CustomControls/CustomControls-Prefix.pch9c5117d82d6db541^f2ef43da2d6db541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Prefix.pch0000000000000000^3161"ProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug --serialize-diagnostics /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.dia -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Prefix.pch -o /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-avyxjootqzqlqchhspprlkptkgxf/CustomControls-Prefix.pch.d36"2E7D94F6-776A-4548-BD37-63A7D715359B-
+
+CProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s359535632.861629
+e359535634.861828
+r1
+xProcessPCH
+x/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.pth
+xCustomControls/CustomControls-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile CustomControls/CustomControls-Prefix.pch24b5dc10146eb541^739fdc12146eb541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Prefix.pch0000000000000000^3100"ProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.pth CustomControls/CustomControls-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/johnmph/Documents/CustomControls/CustomControls    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/CustomControls-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/include -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/CustomControls/build/CustomControls.build/Debug/CustomControls.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug -c /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CustomControls-Prefix.pch -o /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomControls-Prefix-frtelvetpzntedeqacpfuygyaatg/CustomControls-Prefix.pch.d36"43752C7D-E4D8-4D3F-A4BD-D7EF9E137AD5-
+
+CSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework
+s359478424.145344
+e359478424.174334
+r1
+xSymLink
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Process /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework05fd2598346db541^38a12c98346db541^---0#0#0#--351"SymLink build/Debug/CustomControls.framework /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework36"1B5A6152-5754-4672-89C2-8B27E2D2403E-
+
+CSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControls Versions/Current/CustomControls
+s359476696.050548
+e359476696.059160
+r1
+xSymLink
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControls
+xVersions/Current/CustomControls
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControlsc1fd0cd82d6db541^ee230fd82d6db541^---0#0#0#--309"SymLink build/Debug/CustomControls.framework/CustomControls Versions/Current/CustomControls    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/CustomControls /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/CustomControls36"29CBF2A5-5DCB-4C27-896C-E013C372A40A-
+
+CSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers Versions/Current/Headers
+s359476696.064053
+e359476696.069908
+r1
+xSymLink
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers
+xVersions/Current/Headers
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers5c7610d82d6db541^8ee511d82d6db541^---0#0#0#--281"SymLink build/Debug/CustomControls.framework/Headers Versions/Current/Headers    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/Headers /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Headers36"6F983137-3490-40ED-9FAF-2E4C60D13575-
+
+CSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources Versions/Current/Resources
+s359476696.050257
+e359476696.056427
+r1
+xSymLink
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources
+xVersions/Current/Resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Process /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources63ec0cd82d6db541^9b710ed82d6db541^---0#0#0#--289"SymLink build/Debug/CustomControls.framework/Resources Versions/Current/Resources    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/Resources /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Resources36"F7F5E308-E23E-46B4-8347-F05D2903383A-
+
+CSymLink /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current A
+s359476696.050253
+e359476696.057420
+r1
+xSymLink
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current
+xA
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Process /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current10ec0cd82d6db541^14b30ed82d6db541^---0#0#0#--253"SymLink build/Debug/CustomControls.framework/Versions/Current A    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf A /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework/Versions/Current36"ED5A8E12-88EE-464C-A31B-EAA252FB36FB-
+
+CSymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls Versions/Current/CustomControls
+s359478424.045435
+e359478424.081430
+r1
+xSymLink
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls
+xVersions/Current/CustomControls
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Process /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls42b30b98346db541^61e11498346db541^---0#0#0#--316"SymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls Versions/Current/CustomControls    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/CustomControls /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/CustomControls36"DC2BDA87-B003-4705-93BA-7A557917AB62-
+
+CSymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers Versions/Current/Headers
+s359478424.093138
+e359478424.121897
+r1
+xSymLink
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers
+xVersions/Current/Headers
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Process /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers80ee1798346db541^b0391f98346db541^---0#0#0#--288"SymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers Versions/Current/Headers    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/Headers /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Headers36"961BF226-EFCD-4A27-B18B-8C957CB2B8F3-
+
+CSymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources Versions/Current/Resources
+s359478424.045367
+e359478424.074160
+r1
+xSymLink
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources
+xVersions/Current/Resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Process /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources1dac0b98346db541^b4051498346db541^---0#0#0#--296"SymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources Versions/Current/Resources    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf Versions/Current/Resources /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Resources36"AC3309AD-E2C5-42AA-809B-76A9779887CD-
+
+CSymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Current A
+s359478424.045229
+e359478424.081419
+r1
+xSymLink
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Current
+xA
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Currentefaa0b98346db541^77d81498346db541^---0#0#0#--260"SymLink /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Current A    cd /Users/johnmph/Documents/CustomControls/CustomControls    /bin/ln -sf A /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework/Versions/Current36"6CB87A56-6BC8-4668-836C-7401D7D355E9-
+
+CTouch /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework
+s359544897.335023
+e359544897.340075
+r1
+xTouch
+x/Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.frameworkbbd35541386eb541^9d0f5741386eb541^---0#0#0#--219"Touch build/Debug/CustomControls.framework    cd /Users/johnmph/Documents/CustomControls/CustomControls    /usr/bin/touch -c /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework36"A309DCC5-AB9A-4C60-AC89-F146E67D358D-
+
+CTouch /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework
+s359478424.433840
+e359478424.439305
+r1
+xTouch
+x/tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework96206f98346db541^c0767098346db541^---0#0#0#--226"Touch /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework    cd /Users/johnmph/Documents/CustomControls/CustomControls    /usr/bin/touch -c /tmp/CustomControls.dst/Library/Frameworks/CustomControls.framework36"B1D469C6-679F-4347-9C0E-2DA88D2886B9-
+
