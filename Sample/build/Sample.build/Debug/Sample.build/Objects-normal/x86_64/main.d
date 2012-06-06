@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m
+  /Users/johnmph/Documents/Xcode/CustomControls/Sample/Sample/main.m

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.m \
-  /Users/johnmph/Documents/CustomControls/CustomControls/CustomControls/CCTabViewItem.h
+  /Users/johnmph/Documents/Xcode/CustomControls/CustomControls/CustomControls/CCTabViewItem.m \
+  /Users/johnmph/Documents/Xcode/CustomControls/CustomControls/CustomControls/CCTabViewItem.h

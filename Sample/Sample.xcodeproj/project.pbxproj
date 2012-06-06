@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D4EB394156E1131003176B3 /* CustomControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D4EB393156E1131003176B3 /* CustomControls.framework */; };
-		4D4EB395156E1152003176B3 /* CustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4EB393156E1131003176B3 /* CustomControls.framework */; };
 		4D939182156D1EAB0041FE4D /* Item1-Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917C156D1EAB0041FE4D /* Item1-Large.png */; };
 		4D939183156D1EAB0041FE4D /* Item1-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917D156D1EAB0041FE4D /* Item1-Small.png */; };
 		4D939184156D1EAB0041FE4D /* Item2-Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917E156D1EAB0041FE4D /* Item2-Large.png */; };
@@ -26,6 +24,8 @@
 		4DB5C37A156D10BB00256EAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C378156D10BB00256EAC /* InfoPlist.strings */; };
 		4DB5C37D156D10BB00256EAC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5C37C156D10BB00256EAC /* SampleTests.m */; };
 		4DB5C38D156D1C3400256EAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5C38C156D1C3400256EAC /* QuartzCore.framework */; };
+		4DB5F3ED157F968500C9A04E /* CustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5F3E1157F950100C9A04E /* CustomControls.framework */; };
+		4DB5F3EE157F968F00C9A04E /* CustomControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DB5F3E1157F950100C9A04E /* CustomControls.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,27 @@
 			remoteGlobalIDString = 4DB5C34D156D10BA00256EAC;
 			remoteInfo = Sample;
 		};
+		4DB5F3E0157F950100C9A04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D09D00F156BA58A0099F55F;
+			remoteInfo = CustomControls;
+		};
+		4DB5F3E2157F950100C9A04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D09D027156BA58A0099F55F;
+			remoteInfo = CustomControlsTests;
+		};
+		4DB5F3EB157F968100C9A04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D09D00E156BA58A0099F55F;
+			remoteInfo = CustomControls;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,14 +66,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4D4EB394156E1131003176B3 /* CustomControls.framework in CopyFiles */,
+				4DB5F3EE157F968F00C9A04E /* CustomControls.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D4EB393156E1131003176B3 /* CustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CustomControls.framework; path = /Users/johnmph/Documents/CustomControls/CustomControls/build/Debug/CustomControls.framework; sourceTree = "<absolute>"; };
 		4D93917C156D1EAB0041FE4D /* Item1-Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Item1-Large.png"; sourceTree = "<group>"; };
 		4D93917D156D1EAB0041FE4D /* Item1-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Item1-Small.png"; sourceTree = "<group>"; };
 		4D93917E156D1EAB0041FE4D /* Item2-Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Item2-Large.png"; sourceTree = "<group>"; };
@@ -79,6 +99,7 @@
 		4DB5C37B156D10BB00256EAC /* SampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleTests.h; sourceTree = "<group>"; };
 		4DB5C37C156D10BB00256EAC /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
 		4DB5C38C156D1C3400256EAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomControls.xcodeproj; path = ../CustomControls/CustomControls.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +109,7 @@
 			files = (
 				4DB5C353156D10BA00256EAC /* Cocoa.framework in Frameworks */,
 				4DB5C38D156D1C3400256EAC /* QuartzCore.framework in Frameworks */,
-				4D4EB395156E1152003176B3 /* CustomControls.framework in Frameworks */,
+				4DB5F3ED157F968500C9A04E /* CustomControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +141,7 @@
 		4DB5C343156D10BA00256EAC = {
 			isa = PBXGroup;
 			children = (
+				4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */,
 				4DB5C358156D10BA00256EAC /* Sample */,
 				4DB5C375156D10BB00256EAC /* SampleTests */,
 				4DB5C351156D10BA00256EAC /* Frameworks */,
@@ -141,7 +163,6 @@
 			children = (
 				4DB5C352156D10BA00256EAC /* Cocoa.framework */,
 				4DB5C38C156D1C3400256EAC /* QuartzCore.framework */,
-				4D4EB393156E1131003176B3 /* CustomControls.framework */,
 				4DB5C370156D10BB00256EAC /* SenTestingKit.framework */,
 				4DB5C354156D10BA00256EAC /* Other Frameworks */,
 			);
@@ -201,6 +222,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4DB5F3DC157F950000C9A04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB5F3E1157F950100C9A04E /* CustomControls.framework */,
+				4DB5F3E3157F950100C9A04E /* CustomControlsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,6 +246,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4DB5F3EC157F968100C9A04E /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -259,6 +290,12 @@
 			mainGroup = 4DB5C343156D10BA00256EAC;
 			productRefGroup = 4DB5C34F156D10BA00256EAC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4DB5F3DC157F950000C9A04E /* Products */;
+					ProjectRef = 4DB5F3DB157F950000C9A04E /* CustomControls.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4DB5C34D156D10BA00256EAC /* Sample */,
@@ -266,6 +303,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4DB5F3E1157F950100C9A04E /* CustomControls.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CustomControls.framework;
+			remoteRef = 4DB5F3E0157F950100C9A04E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4DB5F3E3157F950100C9A04E /* CustomControlsTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomControlsTests.octest;
+			remoteRef = 4DB5F3E2157F950100C9A04E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4DB5C34C156D10BA00256EAC /* Resources */ = {
@@ -335,6 +389,11 @@
 			isa = PBXTargetDependency;
 			target = 4DB5C34D156D10BA00256EAC /* Sample */;
 			targetProxy = 4DB5C373156D10BB00256EAC /* PBXContainerItemProxy */;
+		};
+		4DB5F3EC157F968100C9A04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomControls;
+			targetProxy = 4DB5F3EB157F968100C9A04E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
