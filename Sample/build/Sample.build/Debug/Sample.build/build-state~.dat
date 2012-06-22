@@ -1,335 +1,0 @@
-TSample
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Info.plist Sample/Sample-Info.plist
-cProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth Sample/Sample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o /Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Sample normal x86_64
-cCopyStringsFile /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/InfoPlist.strings Sample/en.lproj/InfoPlist.strings
-cCpResource Sample/en.lproj/Credits.rtf build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf
-cCompileXIB /Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib
-cCpResource Sample/Resources/Item1-Large.png build/Debug/Sample.app/Contents/Resources/Item1-Large.png
-cCpResource Sample/Resources/Item1-Small.png build/Debug/Sample.app/Contents/Resources/Item1-Small.png
-cCpResource Sample/Resources/Item2-Large.png build/Debug/Sample.app/Contents/Resources/Item2-Large.png
-cCpResource Sample/Resources/Item3-Large.png build/Debug/Sample.app/Contents/Resources/Item3-Large.png
-cCpResource Sample/Resources/Item2-Small.png build/Debug/Sample.app/Contents/Resources/Item2-Small.png
-cCpResource Sample/Resources/Item3-Small.png build/Debug/Sample.app/Contents/Resources/Item3-Small.png
-cTouch /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F29C61A00000000000000EE
-t1328137754
-s238
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004F9F39E80000000000002470
-t1335835112
-s9328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004F9F39EA00000000000462E0
-t1335835114
-s287456
-
-N/Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug/CustomControls.framework/CustomControls
-c000000004FBCF65A000000000000C518
-t1337783898
-s50456
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m
-c000000004FBCE4910000000000000DDD
-t1337779345
-s3549
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item1-Large.png
-c000000004EC117500000000000000664
-t1321277264
-s1636
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item1-Small.png
-c000000004CB836580000000000000BA3
-t1287140952
-s2979
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item2-Large.png
-c000000004EC1175000000000000007A7
-t1321277264
-s1959
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item2-Small.png
-c000000004CBB7CFA0000000000000161
-t1287355642
-s353
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item3-Large.png
-c000000004EC1175000000000000008A6
-t1321277264
-s2214
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item3-Small.png
-c000000004CBB7C640000000000000147
-t1287355492
-s327
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/Sample-Prefix.pch
-c000000004FBCD93A000000000000008F
-t1337776442
-s143
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/Credits.rtf
-c000000004FBCD93A00000000000001B4
-t1337776442
-s436
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/InfoPlist.strings
-c000000004FBCD93A000000000000002D
-t1337776442
-s45
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib
-c000000004FBCE44A0000000000033703
-t1337779274
-s210691
-
-N/Users/johnmph/Documents/CustomControls/Sample/Sample/main.m
-c000000004FBCD93A0000000000000102
-t1337776442
-s258
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Info.plist
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Sample
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item1-Large.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item1-Small.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item2-Large.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item2-Small.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item3-Large.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item3-Small.png
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o
-t2
-s0
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/Sample.LinkFileList
-c000000004FBCF65B00000000000000EB
-t1337783899
-s235
-
-N/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth
-t2
-s0
-
-NSample/Sample-Info.plist
-c000000004FBCD93A000000000000044D
-t1337776442
-s1101
-
-CBuild AST from /Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m
-r0
-
-CBuild AST from /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf96904db2d6db541^c58f05db2d6db541^---0#1#0#--18"Check dependencies36"D67E0285-2DC6-46C4-96E6-05DFF4E66F79-
-
-CCompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o /Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s359476700.098903
-e359476700.297704
-r1
-xCompileC
-xbuild/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.ma58319dc2d6db541^65364cdc2d6db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m0000000000000000^2899"CompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o Sample/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/Sample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Debug/include -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/Sample/build/Debug -F/Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/johnmph/Documents/CustomControls/Sample/Sample/AppDelegate.m -o /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/AppDelegate.o36"8EB57AEA-4E9B-486B-B661-7D023B19BE72-
-
-CCompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s359476700.098918
-e359476700.193345
-r1
-xCompileC
-xbuild/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o
-x/Users/johnmph/Documents/CustomControls/Sample/Sample/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m518319dc2d6db541^bb7e31dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/main.m0000000000000000^2857"CompileC build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o Sample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/Sample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Debug/include -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/Sample/build/Debug -F/Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug -include /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch -MMD -MT dependencies -MF /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.dia -c /Users/johnmph/Documents/CustomControls/Sample/Sample/main.m -o /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/main.o36"4A78879C-0C83-4728-AA36-CA653BC53A4E-
-
-CCompileXIB /Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib
-s359476700.362427
-e359476701.394128
-r1
-xCompileXIB
-x/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib
-o2012-05-23 16:38:20.888 ibtoold[1414:a03] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
-o2012-05-23 16:38:20.890 ibtoold[1414:a03] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compiling /Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xiba8e05cdc2d6db541^15fe64dd2d6db541^-322"2012-05-23 16:38:20.888 ibtoold[1414:a03] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2012-05-23 16:38:20.890 ibtoold[1414:a03] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***-0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib0000000000000000^614"CompileXIB Sample/en.lproj/MainMenu.xib    cd /Users/johnmph/Documents/CustomControls/Sample    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/MainMenu.nib /Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"3FAB2D11-A733-4B0B-93FD-C1D291CFACEB-
-
-CCopyStringsFile /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/InfoPlist.strings Sample/en.lproj/InfoPlist.strings
-s359476700.360827
-e359476700.373107
-r1
-xCopyStringsFile
-x/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/InfoPlist.strings
-xSample/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Sample/en.lproj/InfoPlist.stringsa3755cdc2d6db541^bf0a60dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/InfoPlist.strings0000000000000000^398"CopyStringsFile build/Debug/Sample.app/Contents/Resources/en.lproj/InfoPlist.strings Sample/en.lproj/InfoPlist.strings    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj -- Sample/en.lproj/InfoPlist.strings36"28AE5056-0263-411D-9B91-E8561034CD27-
-
-CCpResource Sample/Resources/Item1-Large.png build/Debug/Sample.app/Contents/Resources/Item1-Large.png
-s359476700.363198
-e359476700.412979
-r1
-xCpResource
-xSample/Resources/Item1-Large.png
-xbuild/Debug/Sample.app/Contents/Resources/Item1-Large.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item1-Large.png200b5ddc2d6db541^dec769dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item1-Large.png000000000080d041^542"CpResource Sample/Resources/Item1-Large.png build/Debug/Sample.app/Contents/Resources/Item1-Large.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item1-Large.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"365650AB-F6A6-410C-AEE5-87A0EF96FD4D-
-
-CCpResource Sample/Resources/Item1-Small.png build/Debug/Sample.app/Contents/Resources/Item1-Small.png
-s359476700.402109
-e359476700.412936
-r1
-xCpResource
-xSample/Resources/Item1-Small.png
-xbuild/Debug/Sample.app/Contents/Resources/Item1-Small.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item1-Small.png180767dc2d6db541^73b969dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item1-Small.png000000000080d041^542"CpResource Sample/Resources/Item1-Small.png build/Debug/Sample.app/Contents/Resources/Item1-Small.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item1-Small.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"A3578047-36BD-4233-8DF3-7A2EFC58D971-
-
-CCpResource Sample/Resources/Item2-Large.png build/Debug/Sample.app/Contents/Resources/Item2-Large.png
-s359476700.402319
-e359476700.412948
-r1
-xCpResource
-xSample/Resources/Item2-Large.png
-xbuild/Debug/Sample.app/Contents/Resources/Item2-Large.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item2-Large.pnga11267dc2d6db541^d2c269dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item2-Large.png000000000080d041^542"CpResource Sample/Resources/Item2-Large.png build/Debug/Sample.app/Contents/Resources/Item2-Large.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item2-Large.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"123C7091-5BCC-47AA-B8F4-1E5FE3DDFDB5-
-
-CCpResource Sample/Resources/Item2-Small.png build/Debug/Sample.app/Contents/Resources/Item2-Small.png
-s359476700.414265
-e359476700.418180
-r1
-xCpResource
-xSample/Resources/Item2-Small.png
-xbuild/Debug/Sample.app/Contents/Resources/Item2-Small.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item2-Small.png1c266adc2d6db541^b70d6bdc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item2-Small.png000000000080d041^542"CpResource Sample/Resources/Item2-Small.png build/Debug/Sample.app/Contents/Resources/Item2-Small.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item2-Small.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"76275477-4237-42E7-AA6F-725E9977BB9C-
-
-CCpResource Sample/Resources/Item3-Large.png build/Debug/Sample.app/Contents/Resources/Item3-Large.png
-s359476700.414261
-e359476700.417503
-r1
-xCpResource
-xSample/Resources/Item3-Large.png
-xbuild/Debug/Sample.app/Contents/Resources/Item3-Large.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item3-Large.png3e266adc2d6db541^5ce46adc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item3-Large.png000000000080d041^542"CpResource Sample/Resources/Item3-Large.png build/Debug/Sample.app/Contents/Resources/Item3-Large.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item3-Large.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"30B5D176-2C22-4D9B-ADD6-C95DF1E39197-
-
-CCpResource Sample/Resources/Item3-Small.png build/Debug/Sample.app/Contents/Resources/Item3-Small.png
-s359476700.414927
-e359476700.419240
-r1
-xCpResource
-xSample/Resources/Item3-Small.png
-xbuild/Debug/Sample.app/Contents/Resources/Item3-Small.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Sample.app/Contents/Resources/Item3-Small.png7c466adc2d6db541^82536bdc2d6db541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/Item3-Small.png000000000080d041^542"CpResource Sample/Resources/Item3-Small.png build/Debug/Sample.app/Contents/Resources/Item3-Small.png    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/Resources/Item3-Small.png /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources36"262669E3-837F-41BA-BCBD-AF0758D6BD50-
-
-CCpResource Sample/en.lproj/Credits.rtf build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf
-s359476700.361759
-e359476700.376024
-r1
-xCpResource
-xSample/en.lproj/Credits.rtf
-xbuild/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtfe2ac5cdc2d6db541^6b4460dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^546"CpResource Sample/en.lproj/Credits.rtf build/Debug/Sample.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/johnmph/Documents/CustomControls/Sample/Sample/en.lproj/Credits.rtf /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Resources/en.lproj36"9F717D7F-C1D3-4B92-AACB-69F463A3250B-
-
-CLd /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Sample normal x86_64
-s359476700.305387
-e359476700.353236
-r1
-xLd
-x/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Sample
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Samplec4414edc2d6db541^672b5bdc2d6db541^---0#0#0#--1013"Ld build/Debug/Sample.app/Contents/MacOS/Sample normal x86_64    cd /Users/johnmph/Documents/CustomControls/Sample    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/johnmph/Documents/CustomControls/Sample/build/Debug -F/Users/johnmph/Documents/CustomControls/Sample/build/Debug -F/Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug -filelist /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Objects-normal/x86_64/Sample.LinkFileList -Xlinker -rpath -Xlinker /Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug -mmacosx-version-min=10.7 -fobjc-arc -framework Cocoa -framework QuartzCore -framework CustomControls -o /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/MacOS/Sample36"4E506E74-2DF7-44D1-8779-1218934B5AF0-
-
-CProcessInfoPlistFile /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Info.plist Sample/Sample-Info.plist
-s359476699.027288
-e359476699.052198
-r1
-xProcessInfoPlistFile
-x/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Info.plist
-xSample/Sample-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Sample/Sample-Info.plistaa0c07db2d6db541^815d0ddb2d6db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/Sample-Info.plist0000000000000000^427"ProcessInfoPlistFile build/Debug/Sample.app/Contents/Info.plist Sample/Sample-Info.plist    cd /Users/johnmph/Documents/CustomControls/Sample    builtin-infoPlistUtility Sample/Sample-Info.plist -genpkginfo /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app/Contents/Info.plist36"7F7084B7-B4C3-41F0-8DA7-8A02441A2F76-
-
-CProcessPCH /Users/johnmph/Library/Developer/Xcode/DerivedData/CustomControls-eaywxyjkitlkgsayyymuxjrgrtxi/Index/PrecompiledHeaders/Sample-Prefix-hbmhefkcdvwyqyfpzpziojxdopto_ast/Sample-Prefix.pch.pth Sample/Sample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth Sample/Sample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s359476699.061318
-e359476700.091307
-r1
-xProcessPCH
-x/var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth
-xSample/Sample-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Sample/Sample-Prefix.pch2bdb0fdb2d6db541^136117dc2d6db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/johnmph/Documents/CustomControls/Sample/Sample/Sample-Prefix.pch0000000000000000^2947"ProcessPCH /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth Sample/Sample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnmph/Documents/CustomControls/Sample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-generated-files.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-own-target-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-all-target-headers.hmap -iquote /Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/Sample-project-headers.hmap -I/Users/johnmph/Documents/CustomControls/Sample/build/Debug/include -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources/x86_64 -I/Users/johnmph/Documents/CustomControls/Sample/build/Sample.build/Debug/Sample.build/DerivedSources -F/Users/johnmph/Documents/CustomControls/Sample/build/Debug -F/Users/johnmph/Documents/CustomControls/Sample/../CustomControls/build/Debug --serialize-diagnostics /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.dia -c /Users/johnmph/Documents/CustomControls/Sample/Sample/Sample-Prefix.pch -o /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sn/hdxj1xy12_57mf2tp5nr0fn80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sample-Prefix-gdubikqzewogjcddnhekxdlbwqlb/Sample-Prefix.pch.d36"DAF7B2DB-0DD2-47CB-A5AE-C7DB72BC580E-
-
-CTouch /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app
-s359476701.406504
-e359476701.413823
-r1
-xTouch
-x/Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.appa22468dd2d6db541^dafe69dd2d6db541^---0#0#0#--175"Touch build/Debug/Sample.app    cd /Users/johnmph/Documents/CustomControls/Sample    /usr/bin/touch -c /Users/johnmph/Documents/CustomControls/Sample/build/Debug/Sample.app36"6568956B-0500-4F24-94E6-9F47E1020DE8-
-
