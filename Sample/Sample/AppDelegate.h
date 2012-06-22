@@ -33,5 +33,6 @@
 - (IBAction)doActionForSizeChange:(id)sender;
 - (IBAction)doActionForPositionChange:(id)sender;
 - (IBAction)doActionForTransitionChange:(id)sender;
+- (IBAction)doActionForRemoveAll:(id)sender;
 
 @end

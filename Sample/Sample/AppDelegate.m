@@ -132,4 +132,9 @@
     }
 }
 
+- (void)doActionForRemoveAll:(id)sender {
+    // Remove all tab view items
+    [_tabView removeAllTabViewItems];
+}
+
 @end

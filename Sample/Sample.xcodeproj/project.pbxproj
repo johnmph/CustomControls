@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8C0ACB15840BA200711F0C /* CustomControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DB5F3E1157F950100C9A04E /* CustomControls.framework */; };
 		4D939182156D1EAB0041FE4D /* Item1-Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917C156D1EAB0041FE4D /* Item1-Large.png */; };
 		4D939183156D1EAB0041FE4D /* Item1-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917D156D1EAB0041FE4D /* Item1-Small.png */; };
 		4D939184156D1EAB0041FE4D /* Item2-Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D93917E156D1EAB0041FE4D /* Item2-Large.png */; };
@@ -25,7 +26,6 @@
 		4DB5C37D156D10BB00256EAC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5C37C156D10BB00256EAC /* SampleTests.m */; };
 		4DB5C38D156D1C3400256EAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5C38C156D1C3400256EAC /* QuartzCore.framework */; };
 		4DB5F3ED157F968500C9A04E /* CustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5F3E1157F950100C9A04E /* CustomControls.framework */; };
-		4DB5F3EE157F968F00C9A04E /* CustomControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DB5F3E1157F950100C9A04E /* CustomControls.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D4EB391156E111B003176B3 /* CopyFiles */ = {
+		4D8C0AC815840B9500711F0C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4DB5F3EE157F968F00C9A04E /* CustomControls.framework in CopyFiles */,
+				4D8C0ACB15840BA200711F0C /* CustomControls.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 				4DB5C34A156D10BA00256EAC /* Sources */,
 				4DB5C34B156D10BA00256EAC /* Frameworks */,
 				4DB5C34C156D10BA00256EAC /* Resources */,
-				4D4EB391156E111B003176B3 /* CopyFiles */,
+				4D8C0AC815840B9500711F0C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -485,11 +485,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../CustomControls/build/Debug\"",
+					"\"$(SRCROOT)/../CustomControls/build/$(CONFIGURATION)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,11 +501,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../CustomControls/build/Debug\"",
+					"\"$(SRCROOT)/../CustomControls/build/$(CONFIGURATION)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

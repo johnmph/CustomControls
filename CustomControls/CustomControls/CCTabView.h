@@ -104,6 +104,9 @@ typedef enum {
 // Remove a tab view item
 - (void)removeTabViewItem:(CCTabViewItem *)tabViewItem;
 
+// Remove all tab view items
+- (void)removeAllTabViewItems;
+
 
 // *** Accessing Tabs ***
 

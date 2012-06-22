@@ -505,6 +505,25 @@
     [self updateTabMatrixFrame];
 }
 
+- (void)removeAllTabViewItems {
+    NSTabViewItem *tabViewItem;
+    
+    // Browse all tab view items
+    while ([_tabView numberOfTabViewItems] > 0) {
+        // Get first tab view item
+        tabViewItem = [_tabView tabViewItemAtIndex:0];
+        
+        // Remove it
+        [_tabView removeTabViewItem:tabViewItem];
+        
+        // Remove colum from matrix
+        [_tabMatrix removeColumn:0];
+    }
+    
+    // Update tab matrix frame
+    [self updateTabMatrixFrame];
+}
+
 - (NSInteger)indexOfTabViewItem:(CCTabViewItem *)tabViewItem {
     // Use tab view as delegate to manage the message
     return [_tabView indexOfTabViewItem:tabViewItem];
