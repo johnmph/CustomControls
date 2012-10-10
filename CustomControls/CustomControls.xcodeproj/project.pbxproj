@@ -28,6 +28,10 @@
 		4D09D056156BA6100099F55F /* CCToolBarButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */; };
 		4D09D057156BA67E0099F55F /* CustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D09D01F156BA58A0099F55F /* CustomControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D09D059156BA6960099F55F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D058156BA6960099F55F /* QuartzCore.framework */; };
+		4DE952741625A3BE00046DCC /* CCColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE952701625A3BE00046DCC /* CCColorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE952751625A3BE00046DCC /* CCColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE952711625A3BE00046DCC /* CCColorView.m */; };
+		4DE952761625A3BE00046DCC /* CCSplitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE952721625A3BE00046DCC /* CCSplitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE952771625A3BE00046DCC /* CCSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE952731625A3BE00046DCC /* CCSplitView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		4D09D049156BA6100099F55F /* CCToolBarButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCToolBarButtonCell.h; sourceTree = "<group>"; };
 		4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCToolBarButtonCell.m; sourceTree = "<group>"; };
 		4D09D058156BA6960099F55F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DE952701625A3BE00046DCC /* CCColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColorView.h; sourceTree = "<group>"; };
+		4DE952711625A3BE00046DCC /* CCColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorView.m; sourceTree = "<group>"; };
+		4DE952721625A3BE00046DCC /* CCSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSplitView.h; sourceTree = "<group>"; };
+		4DE952731625A3BE00046DCC /* CCSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSplitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,10 @@
 				4D09D042156BA6100099F55F /* CCGradient.m */,
 				4D09D043156BA6100099F55F /* CCGradientView.h */,
 				4D09D044156BA6100099F55F /* CCGradientView.m */,
+				4DE952701625A3BE00046DCC /* CCColorView.h */,
+				4DE952711625A3BE00046DCC /* CCColorView.m */,
+				4DE952721625A3BE00046DCC /* CCSplitView.h */,
+				4DE952731625A3BE00046DCC /* CCSplitView.m */,
 				4D09D045156BA6100099F55F /* CCTabView.h */,
 				4D09D046156BA6100099F55F /* CCTabView.m */,
 				4D09D047156BA6100099F55F /* CCTabViewItem.h */,
@@ -194,6 +206,8 @@
 				4D09D04B156BA6100099F55F /* CCBase.h in Headers */,
 				4D09D04D156BA6100099F55F /* CCGradient.h in Headers */,
 				4D09D04F156BA6100099F55F /* CCGradientView.h in Headers */,
+				4DE952741625A3BE00046DCC /* CCColorView.h in Headers */,
+				4DE952761625A3BE00046DCC /* CCSplitView.h in Headers */,
 				4D09D051156BA6100099F55F /* CCTabView.h in Headers */,
 				4D09D053156BA6100099F55F /* CCTabViewItem.h in Headers */,
 				4D09D055156BA6100099F55F /* CCToolBarButtonCell.h in Headers */,
@@ -247,7 +261,7 @@
 		4D09D005156BA58A0099F55F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 4D09D008156BA58A0099F55F /* Build configuration list for PBXProject "CustomControls" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -313,6 +327,8 @@
 				4D09D052156BA6100099F55F /* CCTabView.m in Sources */,
 				4D09D054156BA6100099F55F /* CCTabViewItem.m in Sources */,
 				4D09D056156BA6100099F55F /* CCToolBarButtonCell.m in Sources */,
+				4DE952751625A3BE00046DCC /* CCColorView.m in Sources */,
+				4DE952771625A3BE00046DCC /* CCSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +418,7 @@
 		4D09D03A156BA58A0099F55F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -417,6 +434,7 @@
 		4D09D03B156BA58A0099F55F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -432,6 +450,7 @@
 		4D09D03D156BA58A0099F55F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";
@@ -444,6 +463,7 @@
 		4D09D03E156BA58A0099F55F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomControls/CustomControls-Prefix.pch";

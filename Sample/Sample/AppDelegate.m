@@ -14,6 +14,12 @@
 // Update size
 - (void)updateSize;
 
+// Move a divider
+- (void)moveDividerOfSplitViewAtIndex:(NSInteger)index toPosition:(CGFloat)position;
+
+// Switch position of a divider
+- (void)switchPositionOfDividerAtIndex:(NSInteger)index;
+
 @end
 
 @implementation AppDelegate
@@ -54,6 +60,11 @@
     
     // Update size
     [self updateSize];
+    
+    // Set color of colors view
+    _colorView1.color = [NSColor redColor];
+    _colorView2.color = [NSColor greenColor];
+    _colorView3.color = [NSColor blueColor];
 }
 
 
@@ -87,6 +98,36 @@
     } else {
         _tabView.tabsMargin = CCMarginMake(8.0f, 8.0f, 6.0f, 6.0f);
     }
+}
+
+- (void)moveDividerOfSplitViewAtIndex:(NSInteger)index toPosition:(CGFloat)position {
+    // Start group of animation
+    [NSAnimationContext beginGrouping];
+    
+    {
+        // Set duration
+        [[NSAnimationContext currentContext] setDuration:0.4f];
+        
+        // Set position of divider at index
+        [_splitView setPosition:position ofDividerAtIndex:index animated:TRUE];
+    }
+    
+    // End group
+    [NSAnimationContext endGrouping];
+}
+
+- (void)switchPositionOfDividerAtIndex:(NSInteger)index {
+    // Calculate limit of split view
+    CGFloat limit = (_splitView.isVertical) ? _splitView.frame.size.width : _splitView.frame.size.height;
+    
+    // Calculate center of limit
+    CGFloat center = limit * 0.5f;
+    
+    // Calculate position
+    CGFloat position = ([_splitView positionForDividerAtIndex:index] < center) ? limit - 1.0f : 0.0f;
+    
+    // Move divider
+    [self moveDividerOfSplitViewAtIndex:index toPosition:position];
 }
 
 
@@ -135,6 +176,16 @@
 - (void)doActionForRemoveAll:(id)sender {
     // Remove all tab view items
     [_tabView removeAllTabViewItems];
+}
+
+- (void)doActionForLButton:(id)sender {
+    // Switch position of divider 0
+    [self switchPositionOfDividerAtIndex:0];
+}
+
+- (void)doActionForRButton:(id)sender {
+    // Switch position of divider 1
+    [self switchPositionOfDividerAtIndex:1];
 }
 
 @end

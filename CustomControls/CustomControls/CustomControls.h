@@ -10,6 +10,8 @@
 #import <CustomControls/CCBase.h>
 #import <CustomControls/CCGradient.h>
 #import <CustomControls/CCGradientView.h>
+#import <CustomControls/CCColorView.h>
+#import <CustomControls/CCSplitView.h>
 #import <CustomControls/CCToolBarButtonCell.h>
 #import <CustomControls/CCTabViewItem.h>
 #import <CustomControls/CCTabView.h>

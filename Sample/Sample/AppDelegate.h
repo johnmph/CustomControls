@@ -23,6 +23,14 @@
     IBOutlet NSSegmentedControl *_sizeControl;
     IBOutlet NSSegmentedControl *_positionControl;
     IBOutlet NSSegmentedControl *_transitionControl;
+    
+    // Split view
+    IBOutlet CCSplitView *_splitView;
+    
+    // Colors view
+    IBOutlet CCColorView *_colorView1;
+    IBOutlet CCColorView *_colorView2;
+    IBOutlet CCColorView *_colorView3;
 }
 
 // Window
@@ -34,5 +42,7 @@
 - (IBAction)doActionForPositionChange:(id)sender;
 - (IBAction)doActionForTransitionChange:(id)sender;
 - (IBAction)doActionForRemoveAll:(id)sender;
+- (IBAction)doActionForLButton:(id)sender;
+- (IBAction)doActionForRButton:(id)sender;
 
 @end
