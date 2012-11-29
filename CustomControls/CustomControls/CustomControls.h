@@ -15,3 +15,4 @@
 #import <CustomControls/CCToolBarButtonCell.h>
 #import <CustomControls/CCTabViewItem.h>
 #import <CustomControls/CCTabView.h>
+#import <CustomControls/CCTabViewDelegate.h>

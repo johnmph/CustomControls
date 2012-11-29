@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0297ED1666E5070097D0A3 /* CCTabViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0297EC1666DC520097D0A3 /* CCTabViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D09D013156BA58A0099F55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D012156BA58A0099F55F /* Cocoa.framework */; };
 		4D09D01D156BA58A0099F55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D09D01B156BA58A0099F55F /* InfoPlist.strings */; };
 		4D09D029156BA58A0099F55F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D09D028156BA58A0099F55F /* SenTestingKit.framework */; };
@@ -212,6 +213,7 @@
 				4DE952761625A3BE00046DCC /* CCSplitView.h in Headers */,
 				4D09D051156BA6100099F55F /* CCTabView.h in Headers */,
 				4D09D053156BA6100099F55F /* CCTabViewItem.h in Headers */,
+				4D0297ED1666E5070097D0A3 /* CCTabViewDelegate.h in Headers */,
 				4D09D055156BA6100099F55F /* CCToolBarButtonCell.h in Headers */,
 				4D09D057156BA67E0099F55F /* CustomControls.h in Headers */,
 			);
