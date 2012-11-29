@@ -11,6 +11,7 @@
 #import "CCBase.h"
 #import "CCGradientView.h"
 #import "CCTabViewItem.h"
+#import "CCTabViewDelegate.h"
 
 
 #pragma mark - Enumerations -
@@ -29,7 +30,10 @@ typedef enum {
 
 #pragma mark - Interfaces -
 
-@interface CCTabView : NSView {
+@interface CCTabView : NSView <NSTabViewDelegate> {
+    // Tab view delegate
+    id<CCTabViewDelegate> _delegate;
+    
     // Tab bar view
     CCGradientView *_tabBarView;
     
@@ -62,7 +66,7 @@ typedef enum {
 }
 
 // Delegate
-@property (nonatomic, assign) id<NSTabViewDelegate> delegate;
+@property (nonatomic, assign) id<CCTabViewDelegate> delegate;
 
 // Minimum size
 @property (nonatomic, readonly) NSSize minimumSize;
@@ -156,3 +160,10 @@ typedef enum {
 - (void)takeSelectedTabViewItemFromSender:(id)sender;
 
 @end
+
+
+#pragma mark - Notifications -
+
+APPKIT_EXTERN NSString * const CCTabViewDidChangeNumberOfTabViewItemsNotification;
+APPKIT_EXTERN NSString * const CCTabViewWillSelectTabViewItemNotification;
+APPKIT_EXTERN NSString * const CCTabViewDidSelectTabViewItemNotification;

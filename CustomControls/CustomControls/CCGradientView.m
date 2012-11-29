@@ -29,6 +29,17 @@
     return self;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    // Call parent method
+    if ((self = [super initWithCoder:aDecoder])) {
+        // Initialize members
+        _gradient = nil;
+    }
+    
+    // Return object
+    return self;
+}
+
 - (void)dealloc {
     // Release gradient
     [_gradient release];

@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0297EC1666DC520097D0A3 /* CCTabViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTabViewDelegate.h; sourceTree = "<group>"; };
 		4D09D00F156BA58A0099F55F /* CustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D09D012156BA58A0099F55F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4D09D015156BA58A0099F55F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -159,6 +160,7 @@
 				4D09D046156BA6100099F55F /* CCTabView.m */,
 				4D09D047156BA6100099F55F /* CCTabViewItem.h */,
 				4D09D048156BA6100099F55F /* CCTabViewItem.m */,
+				4D0297EC1666DC520097D0A3 /* CCTabViewDelegate.h */,
 				4D09D049156BA6100099F55F /* CCToolBarButtonCell.h */,
 				4D09D04A156BA6100099F55F /* CCToolBarButtonCell.m */,
 				4D09D01F156BA58A0099F55F /* CustomControls.h */,

@@ -10,6 +10,13 @@
 #import "CCToolBarButtonCell.h"
 
 
+#pragma mark - Notifications -
+
+NSString * const CCTabViewDidChangeNumberOfTabViewItemsNotification = @"CCTabViewDidChangeNumberOfTabViewItemsNotification";
+NSString * const CCTabViewWillSelectTabViewItemNotification = @"CCTabViewWillSelectTabViewItemNotification";
+NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelectTabViewItemNotification";
+
+
 #pragma mark - Private interfaces -
 
 @interface CCTabView ()//TODO: quand on redimensionne ca fait un sale effet, a voir
@@ -49,7 +56,7 @@
 
 @implementation CCTabView
 
-@synthesize titleView = _titleView, cellSize = _cellSize, tabSize = _tabSize, tabsPosition = _tabsPosition, transition = _transition, tabsMargin = _tabsMargin;
+@synthesize delegate = _delegate, titleView = _titleView, cellSize = _cellSize, tabSize = _tabSize, tabsPosition = _tabsPosition, transition = _transition, tabsMargin = _tabsMargin;
 
 
 #pragma mark - Init / Dealloc methods -
@@ -89,17 +96,54 @@
 }
 
 
+#pragma mark - NSTabViewDelegate protocol methods -
+
+- (void)tabViewDidChangeNumberOfTabViewItems:(NSTabView *)tabView {
+    // If delegate implement this method
+    if ([_delegate respondsToSelector:@selector(tabViewDidChangeNumberOfTabViewItems:)]) {
+        // Call method
+        [_delegate tabViewDidChangeNumberOfTabViewItems:self];
+    }
+    
+    // Post notification
+    [[NSNotificationCenter defaultCenter] postNotificationName:CCTabViewDidChangeNumberOfTabViewItemsNotification object:self];
+}
+
+- (BOOL)tabView:(NSTabView *)tabView shouldSelectTabViewItem:(NSTabViewItem *)tabViewItem {
+    // If delegate implement this method
+    if ([_delegate respondsToSelector:@selector(tabView:shouldSelectTabViewItem:)]) {
+        // Call method
+        return [_delegate tabView:self shouldSelectTabViewItem:(CCTabViewItem *) tabViewItem];
+    }
+    
+    // If no delegate, we allow the selection
+    return TRUE;
+}
+
+- (void)tabView:(NSTabView *)tabView willSelectTabViewItem:(NSTabViewItem *)tabViewItem {
+    // If delegate implement this method
+    if ([_delegate respondsToSelector:@selector(tabView:willSelectTabViewItem:)]) {
+        // Call method
+        [_delegate tabView:self willSelectTabViewItem:(CCTabViewItem *) tabViewItem];
+    }
+    
+    // Post notification
+    [[NSNotificationCenter defaultCenter] postNotificationName:CCTabViewWillSelectTabViewItemNotification object:self];
+}
+
+- (void)tabView:(NSTabView *)tabView didSelectTabViewItem:(NSTabViewItem *)tabViewItem {
+    // If delegate implement this method
+    if ([_delegate respondsToSelector:@selector(tabView:didSelectTabViewItem:)]) {
+        // Call method
+        [_delegate tabView:self didSelectTabViewItem:(CCTabViewItem *) tabViewItem];
+    }
+    
+    // Post notification
+    [[NSNotificationCenter defaultCenter] postNotificationName:CCTabViewDidSelectTabViewItemNotification object:self];
+}
+
+
 #pragma mark - Property methods -
-
-- (id<NSTabViewDelegate>)delegate {
-    // Use tab view as delegate to manage the message
-    return _tabView.delegate;
-}
-
-- (void)setDelegate:(id<NSTabViewDelegate>)delegate {
-    // Use tab view as delegate to manage the message
-    _tabView.delegate = delegate;
-}
 
 - (NSSize)minimumSize {
     // Calculate minimum size to contains all tabs
@@ -214,6 +258,7 @@
 
 - (void)initCCTabView {
     // Initialize members
+    _delegate = nil;
     _cellSize = CGSizeZero;
     _tabSize = -1;
     _tabsPosition = -1;
@@ -240,6 +285,9 @@
     
     // Create a tab view
     _tabView = [[[NSTabView alloc] init] autorelease];
+    
+    // Set its delegate
+    _tabView.delegate = self;
     
     // Enable layer for tab view
     _tabView.layer = [CALayer layer];
@@ -369,7 +417,7 @@
         break;
         
         case CCTabViewPositionRight:
-            // Calculate left position
+            // Calculate right position
             frame.origin.x = (_tabBarView.frame.size.width - frame.size.width) - _tabsMargin.right;
             
             // Set autoresize mask
@@ -377,7 +425,7 @@
         break;
         
         default:
-            // Calculate left position
+            // Calculate center position
             frame.origin.x = (_tabBarView.frame.size.width - frame.size.width) / 2.0f;
             
             // Set autoresize mask
