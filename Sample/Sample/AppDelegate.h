@@ -8,14 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 #import <CustomControls/CustomControls.h>
+#import "TreeObject.h"
 
 
-@interface AppDelegate : NSObject <NSApplicationDelegate> {
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSOutlineViewDataSource, NSOutlineViewDelegate> {
     // Tab view
     IBOutlet CCTabView *_tabView;
     
     // Views for tabs
-    IBOutlet NSView *_view1;
+    IBOutlet NSOutlineView *_view1;
     IBOutlet NSView *_view2;
     IBOutlet NSView *_view3;
     
@@ -31,10 +32,16 @@
     IBOutlet CCColorView *_colorView1;
     IBOutlet CCColorView *_colorView2;
     IBOutlet CCColorView *_colorView3;
+    
+    // Root object
+    TreeObject *_rootObject;
 }
 
 // Window
 @property (assign) IBOutlet NSWindow *window;
+
+// Root object
+@property (nonatomic, retain, readonly) TreeObject *rootObject;
 
 
 // Controls actions

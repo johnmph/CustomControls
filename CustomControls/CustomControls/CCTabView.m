@@ -49,6 +49,9 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 // Do action for matrix
 - (void)doActionForMatrix:(id)sender;
 
+// Perform an animatable action
+- (void)performAnimatableActionWithTarget:(id)target andSelector:(SEL)selector andArgument:(void *)argument;
+
 @end
 
 
@@ -140,6 +143,20 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
     
     // Post notification
     [[NSNotificationCenter defaultCenter] postNotificationName:CCTabViewDidSelectTabViewItemNotification object:self];
+}
+
+
+#pragma mark - NSObject(CALayerDelegate) protocol methods -
+
+- (id<CAAction>)actionForLayer:(CALayer *)theLayer forKey:(NSString *)theKey {
+    // Check if not good layer
+    if (theLayer != _tabView.layer) {
+        // Exit
+        return nil;
+    }
+    
+    // Return transition
+    return _transition;
 }
 
 
@@ -288,13 +305,6 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
     
     // Set its delegate
     _tabView.delegate = self;
-    
-    // Enable layer for tab view
-    _tabView.layer = [CALayer layer];
-    _tabView.wantsLayer = TRUE;
-    
-    // Set its layer's delegate
-    _tabView.layer.delegate = self;
     
     // Set its tab mode
     [_tabView setTabViewType:NSNoTabsNoBorder];
@@ -458,18 +468,54 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
     }
     
     // Update tab selection
-    [_tabView takeSelectedTabViewItemFromSender:self];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(takeSelectedTabViewItemFromSender:) andArgument:&self];
 }
 
-- (id<CAAction>)actionForLayer:(CALayer *)theLayer forKey:(NSString *)theKey {
-    // Check if not good layer
-    if (theLayer != _tabView.layer) {
-        // Exit
-        return nil;
-    }
+- (void)performAnimatableActionWithTarget:(id)target andSelector:(SEL)selector andArgument:(void *)argument {
+    // Get method signature for target and selector
+    NSMethodSignature *methodSignature = [target methodSignatureForSelector:selector];
     
-    // Return transition
-    return _transition;
+    // Create invocation
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSignature];
+    
+    // Set its target
+    [invocation setTarget:target];
+    
+    // Set its selector
+    [invocation setSelector:selector];
+    
+    // Set its argument
+    [invocation setArgument:argument atIndex:2];
+    
+    // If transition set
+    if (_transition) {
+        // Enable layer for tab view
+        [_tabView setWantsLayer:TRUE];
+        
+        // Set layer delegate
+        _tabView.layer.delegate = self;
+        
+        // Force display
+        [_tabView display];
+        
+        // Start animation transaction
+        [CATransaction begin];
+        
+        // Set completion block
+        [CATransaction setCompletionBlock:^(void) {
+            // Disable layer for tab view
+            [_tabView setWantsLayer:FALSE];
+        }];
+        
+        // Invoke invocation
+        [invocation invoke];
+        
+        // Commit transaction
+        [CATransaction commit];
+    } else {
+        // Invoke invocation
+        [invocation invoke];
+    }
 }
 
 
@@ -599,7 +645,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectFirstTabViewItem:(id)sender {
     // Use tab view as delegate to manage the message
-    [_tabView selectFirstTabViewItem:sender];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectFirstTabViewItem:) andArgument:&sender];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -607,7 +653,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectLastTabViewItem:(id)sender {
     // Use tab view as delegate to manage the message
-    [_tabView selectLastTabViewItem:sender];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectLastTabViewItem:) andArgument:&sender];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -615,7 +661,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectNextTabViewItem:(id)sender {
     // Use tab view as delegate to manage the message
-    [_tabView selectNextTabViewItem:sender];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectNextTabViewItem:) andArgument:&sender];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -623,7 +669,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectPreviousTabViewItem:(id)sender {
     // Use tab view as delegate to manage the message
-    [_tabView selectPreviousTabViewItem:sender];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectPreviousTabViewItem:) andArgument:&sender];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -631,7 +677,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectTabViewItem:(CCTabViewItem *)tabViewItem {
     // Use tab view as delegate to manage the message
-    [_tabView selectTabViewItem:tabViewItem];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectTabViewItem:) andArgument:&tabViewItem];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -639,7 +685,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectTabViewItemAtIndex:(NSInteger)index {
     // Use tab view as delegate to manage the message
-    [_tabView selectTabViewItemAtIndex:index];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectTabViewItemAtIndex:) andArgument:&index];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -647,7 +693,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)selectTabViewItemWithIdentifier:(id)identifier {
     // Use tab view as delegate to manage the message
-    [_tabView selectTabViewItemWithIdentifier:identifier];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(selectTabViewItemWithIdentifier:) andArgument:&identifier];
     
     // Sync matrix with tab view
     [self syncMatrixWithTabView];
@@ -660,7 +706,7 @@ NSString * const CCTabViewDidSelectTabViewItemNotification = @"CCTabViewDidSelec
 
 - (void)takeSelectedTabViewItemFromSender:(id)sender {
     // Use tab view as delegate to manage the message
-    [_tabView takeSelectedTabViewItemFromSender:sender];
+    [self performAnimatableActionWithTarget:_tabView andSelector:@selector(takeSelectedTabViewItemFromSender:) andArgument:&sender];
 }
 
 @end

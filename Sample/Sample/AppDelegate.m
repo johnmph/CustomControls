@@ -27,6 +27,38 @@
 @synthesize window = _window;
 
 
+- (id)init {
+    // Call parent method
+    if ((self = [super init])) {
+        // Create root object
+        _rootObject = [[TreeObject alloc] initWithData:@"RootObject"];
+        
+        // Create hierarchy
+        for (int x = 0; x < 20; ++x) {
+            TreeObject *child = [[TreeObject alloc] initWithData:[NSString stringWithFormat:@"Item %d", x]];
+            
+            [_rootObject addChild:child];
+        }
+        
+        TreeObject *child = [_rootObject.childs objectAtIndex:1];
+        
+        for (int x = 0; x < 5; ++x) {
+            TreeObject *subchild = [[TreeObject alloc] initWithData:[NSString stringWithFormat:@"Sub item %d", x]];
+            
+            [child addChild:subchild];
+        }
+        
+        child = [_rootObject.childs objectAtIndex:7];
+        [child addChild:[[TreeObject alloc] initWithData:@"Sub item 0"]];
+        
+        child = [[[_rootObject.childs objectAtIndex:7] childs] objectAtIndex:0];
+        [child addChild:[[TreeObject alloc] initWithData:@"Sub item 0"]];
+    }
+    
+    // Return object
+    return self;
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // TODO: Check why i need to call updateTabViewFrame here to correct the frame of _tabView._tabView, maybe it's related to auto layout
     [_tabView performSelector:@selector(updateTabViewFrame)];
@@ -187,5 +219,39 @@
     // Switch position of divider 1
     [self switchPositionOfDividerAtIndex:1];
 }
+
+
+#pragma mark - NSOutlineViewDataSource protocol methods -
+
+- (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item {
+    // Get treeObject
+    TreeObject *treeObject = (item) ? (TreeObject *) item : _rootObject;
+    
+    return [treeObject.childs objectAtIndex:index];
+}
+
+- (BOOL)outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item {
+    // Get treeObject
+    TreeObject *treeObject = (item) ? (TreeObject *) item : _rootObject;
+    
+    return (treeObject.childs.count > 0);
+}
+
+- (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
+    // Get treeObject
+    TreeObject *treeObject = (item) ? (TreeObject *) item : _rootObject;
+    
+    return treeObject.childs.count;
+}
+
+- (id)outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
+    // Get treeObject
+    TreeObject *treeObject = (item) ? (TreeObject *) item : _rootObject;
+    
+    return treeObject.data;
+}
+
+
+#pragma mark - NSOutlineViewDelegate protocol methods -
 
 @end
